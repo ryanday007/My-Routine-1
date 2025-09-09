@@ -3,19 +3,36 @@ body{
     margin: 0 auto;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: #556B2F;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #556B2F;
   color: white;
   padding: 1rem;
+}
+
+title {
+  align-content: center;
 }
 
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 nav a:hover {
