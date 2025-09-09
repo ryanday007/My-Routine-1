@@ -1,19 +1,20 @@
-body{
-    width: 80%;
-    margin: 0 auto;
+body {
+  width: 80%;
+  margin: 0 auto;
 }
 
 header {
   position: sticky;
   top: 0;
-  background-color: #556B2F;
+  background-color: #556b2f;
 }
 
 nav {
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #556B2F;
+  background-color: #556b2f;
   color: white;
   padding: 1rem;
 }
@@ -22,10 +23,16 @@ title {
   align-content: center;
 }
 
+
+
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .video-container {
@@ -35,14 +42,12 @@ nav a {
   gap: 1rem;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
 h1 {
-    color: #8FA31E;
+  color: #8fa31e;
+  text-align: center;
+  padding: 20px;
 }
 
 h2 {
-    color: #556B2F;
+  color: #556b2f;
 }
