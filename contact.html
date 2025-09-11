@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <header>
+      <nav>
+        <div>
+          <img
+            src="./images/MeVsBeet180x180.jpg"
+            alt="author vs MeVsBeet"
+            width="50px"
+            height="auto"
+          />
+        </div>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div></div>
+      </nav>
+    </header>
+    <p>&nbsp;</p>
+    <p>If you have any questions or feedback on our videos, even what videos you would like to see, feel free to reach out!</p>
+    <div style="background-color: lightgrey; padding: 10px 50px;">
+    <p>BTW, did you watch our latest video?</p>
+    <form>
+      <p><input type="radio" id="yes" name="vid_survey" value="yes">
+      <label for="yes">Yes</label><br>
+
+  <input type="radio" id="no" name="vid_survey" value="no">
+  <label for="no">No</label><br>
+  <input type="submit" value="Submit">
+  </p>
+  </div>
+  <div style="padding: 10px 50px;">
+  <p>What culinary topic would you like to see covered?</p>
+  <input type="checkbox" id="In Season" name="In Season" value="In Season">
+<label for="In Season"> In Season</label><br>
+<input type="checkbox" id="Quick Meals" name="Quick Meals" value="Quick Meals">
+<label for="Quick Meals"> Quick Meals</label><br>
+<input type="checkbox" id="Gourmet" name="Gourmet" value="Gourmet">
+<label for="Gourmet"> Gourmet</label><br>
+<button type="submit">Submit</button>
+</form>
+</div>
+<p>&nbsp;</p>
+<div style="background-color: lightgrey; padding: 10px 50px;">
+    <form action="submit_form.php" method="post">
+       <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        &nbsp;
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+       </div>
+       <p>&nbsp;</p>
+       <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <div><button type="submit">Submit</button></div>
+       </form>
+   </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</body>
+</html>
